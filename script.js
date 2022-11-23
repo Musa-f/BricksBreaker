@@ -9,7 +9,7 @@ for(let i=0;i<cubes.length;i++){
 }
 
 //---------------------Curseur de la barre
-let cursor = document.getElementById('barre');
+let cursor = document.getElementById('cursor');
 let container = document.getElementById('container');
 container.addEventListener('mousemove', function(e){
     cursor.style.left = e.clientX + "px";

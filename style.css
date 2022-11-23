@@ -35,7 +35,7 @@ body {
     /*valeur Y négative toujours à -300*/
 }
 
-#barre{
+#cursor{
     position: relative;
     top: 100px;
     background-color: black;
