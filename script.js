@@ -8,6 +8,7 @@ for(let i=0;i<cubes.length;i++){
     cubes[i].style.background = randomColor;
 }
 
+
 //---------------------Curseur de la barre
 let cursor = document.getElementById('cursor');
 let container = document.getElementById('container');
