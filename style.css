@@ -5,6 +5,7 @@ body {
 }
 
 .container{
+    position: relative;
     background-color: beige;
     overflow: hidden;
     border: black solid 2px;
@@ -25,8 +26,8 @@ body {
 }
 
 #ball{
-    position: relative;
-    top: 100px;
+    position: absolute;
+    top: 330px;
     left: 400px;
     background-color: royalblue;
     width: 50px;
@@ -35,8 +36,8 @@ body {
 }
 
 #cursor{
-    position: relative;
-    top: 100px;
+    position: absolute;
+    top: 380px;
     background-color: black;
     width: 100px;
     height: 15px;
