@@ -11,6 +11,7 @@ for(let i=0;i<cubes.length;i++){
 //---------------------Curseur de la barre
 let cursor = document.getElementById('cursor');
 let container = document.getElementById('container');
+
 container.addEventListener('mousemove', function(e){
     cursor.style.left = e.clientX + "px";
 });
@@ -18,3 +19,9 @@ container.addEventListener('mousemove', function(e){
 
 //---------------------Ball qui suit
 let ball = document.getElementById('ball');
+
+/*
+-Créer des valeurs randoms avec un intervalle 
+-Ajouter un style du type transorm translate avec l'intervalle pour Y et X
+-Répeter le transform dans une boucle
+*/
